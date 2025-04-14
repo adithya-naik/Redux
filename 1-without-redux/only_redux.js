@@ -22,7 +22,7 @@ const reducer = (store = INITIAL_VALUE, action) => {
   return newStore;
 };
 
-// initial value is passed in reducder function
+// initial value is passed as reducder function
 const store = redux.createStore(reducer);
 
 // sunscriibe just creared not called yet
